@@ -13,12 +13,17 @@ body {
     color: white;
     justify-content: center;
     align-items: center;
+    background: url(assets/wallpaperflare.com_wallpaper\ \(2\).jpg);
 }
 
 .wrapper{
-    background-color:#171717;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
     width: 420px;
-    padding: 30px;
+    padding: 30px 40px;
+    margin-top: 70px;
 }
 
 .wrapper h1 {
@@ -27,12 +32,12 @@ body {
 }
 
 a{
-    color: aquamarine;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .wrapper .input-box{
     position: relative;
-    ackground-color: pink;
     width: 100%;
     height: 50px;
     margin: 30px 0;
@@ -44,35 +49,41 @@ a{
     border: 2px solid; 
     border-radius: 40px;
     padding: 20px 45px 20px 20px;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    color: #ffffff;
+    
 }
 
 .input-box input::placeholder {
-    color: #131313
+    color: #ffffff
 }
 
 .input-box i{
     position: absolute;
     right: 20px;
-    color: #131313;
+    color: #ffffff;
     top: 50%;
     transform: translateY(-50%);
+    font-size: 20px;
 }
 
-.wrapper lembrar-senha {
+.wrapper .lembrar-senha {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
     margin: -15px 0 15px;
 }
 
-.lembrar-senha label input {
-    accent-color: white;
-    margin: 3px;
+.lembrar-senha input label {
+    accent-color: rgb(255, 255, 255);
+    margin-right: -5px;
 }
 
-.remember-forgot a {
+.lembrar-senha a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .wrapper .btn{
@@ -81,10 +92,16 @@ a{
     background-color: white;
     border: none;
     outline: none;
-    box-shadow: 0 0 10px #131313 ;
+    box-shadow: 0 0 10px #6b6b6b ;
     border-radius: 40px;
     cursor: pointer;
     font-size: 16px;
-    color: #131313;
+    color: #4e4e4e;
     font-weight: 600;
 }
+
+.wrapper .registro{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0 15px ;
+} 

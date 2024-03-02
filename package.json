@@ -1,0 +1,22 @@
+{
+  "name": "tela-login",
+  "version": "1.0.0",
+  "description": "Tela de login desenvolvida em HTML e CSS puro, realizado para a materia Tecnologia para Front-End 3 (UNIESP - CENTRO UNIVERSITÁRIO)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaohenriqu3/tela-login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaohenriqu3/tela-login/issues"
+  },
+  "homepage": "https://github.com/jaohenriqu3/tela-login#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
